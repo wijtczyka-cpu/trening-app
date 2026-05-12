@@ -3,8 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/trening-app/',
-  build: {
-    outDir: 'docs'
-  }
+  base: '/trening-app/'
 })
